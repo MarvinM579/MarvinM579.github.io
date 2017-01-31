@@ -183,7 +183,10 @@ hr.small {
 .skills-item {
     margin-bottom: 30px;
 }
-
+.icon {
+    margin-left: 12px;
+    margin-top: 40px;
+}
 
 
 /* Portfolio */
