@@ -148,11 +148,24 @@ hr.small {
     width: 100%;
     height: 100%;
     color: white;
-    background: url(../img/Code.jpg) no-repeat center center scroll;
+    /*background: url(../img/Code.jpg) no-repeat center center scroll;*/
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+}
+.text-vertical-center {
+    z-index: 1;
+}
+video {
+    position: absolute;
+    z-index: -1;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
 }
 
 /* About */
@@ -184,8 +197,12 @@ hr.small {
     margin-bottom: 30px;
 }
 .icon {
-    margin-left: 12px;
-    margin-top: 40px;
+    margin-left: 6%;
+    margin-top: 5%;
+}
+
+.icon-python {
+    margin-left: 5%;
 }
 
 
