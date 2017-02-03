@@ -247,6 +247,11 @@ video {
     opacity: 0.8;
 }
 
+#guess {
+    height: 305px;
+    width: 485px;
+}
+
 /* Call to Action */
 
 .call-to-action {
