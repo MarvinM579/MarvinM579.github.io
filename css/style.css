@@ -158,7 +158,7 @@ hr.small {
 
 
 .text-vertical-center {
-    z-index: 1;
+    z-index: 10;
 
 }
 
@@ -173,6 +173,16 @@ video {
     min-height: 100%;
     width: auto;
     height: auto;
+}
+
+.overlay {
+position: absolute;
+ top: 0;
+ left: 0;
+ width: 100%;
+ height: 100%;
+ z-index: -1;
+ background-color: rgba(0,0,0,0.7);
 }
 
 /* About */
@@ -270,6 +280,11 @@ video {
 .footer {
     padding: 0;
     background: #222;
+}
+
+.number:hover {
+    text-decoration: none;
+    color: #A94442;
 }
 
 #to-top {
