@@ -203,6 +203,7 @@ position: absolute;
     margin-bottom: 10%;
     height: 400px;
     border-radius: 50%;
+    display: none;
 }
 
 
@@ -241,6 +242,7 @@ position: absolute;
 
 .img-portfolio {
     margin: 0 auto;
+    /*display: none;*/
 }
 
 .img-portfolio:hover {
