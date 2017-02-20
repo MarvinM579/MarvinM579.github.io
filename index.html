@@ -54,7 +54,6 @@
             <h3>Web Developer</h3>
             <br>
             <a href="#about"><i class="fa fa-chevron-down fa-3x faa-bounce animated" id="move" style="color:red"></i></a>
-            <!-- <a href="#about" class="btn btn-danger btn-lg">Find Out More</a> -->
         </div>
     </div>
     <div class="overlay">
@@ -70,8 +69,7 @@
                     <hr class="small">
                     <br>
                     <p class="lead">I became intereseted in coding in early 2015. Tasked with helping a friend make changes on his website, I learned some HTML and CSS. After I made those changes for my friend, I started learning Bootstrap and Javascript. <br>
-                        <br>
-                        I'm currently a student at DigitalCrafts 16-week Immersive Bootcamp where I've been learning Python, Flask, MySQL, PostgreSQL, JQuery and SASS.<br>
+                        <br> I'm currently a student at DigitalCrafts 16-week Immersive Bootcamp where I've been learning Python, Flask, MySQL, PostgreSQL, JQuery and SASS.<br>
                         <br> Aside from programming, I enjoy video gaming, Star Wars and plenty of other nerdy things! </p>
                     <blockquote>
                         <p>"Talk is cheap. Show me the code"</p>
@@ -153,7 +151,7 @@
                     </div>
                 </div>
             </div>
-<br>
+            <br>
             <div class="row text-center">
                 <div class="col-lg-10 col-lg-offset-1">
                     <div id="scroll-to" class="row">
@@ -216,8 +214,8 @@
                     </div>
                 </div>
             </div>
-                </div>
-            </div>
+        </div>
+        </div>
         </div>
     </section>
 
@@ -244,10 +242,10 @@
                                 </a>
                             </div>
                         </div>
-                        </div>
-                        <div class="row">
+                    </div>
+                    <div class="row">
                         <div class="col-md-6">
-                            <div  class="portfolio-item">
+                            <div class="portfolio-item">
                                 <a href="#">
                                     <img class="scroll-to2 img-portfolio img-responsive" src="img/placeholder.jpg">
                                 </a>
@@ -261,8 +259,8 @@
                             </div>
                         </div>
                     </div>
-                    </div>
                 </div>
+            </div>
         </div>
         </div>
     </section>
@@ -374,26 +372,15 @@
         });
 
         $(window).scroll(function() {
-   var hT = $('.scroll-to').offset().top,
-       hH = $('.scroll-to').outerHeight(),
-       wH = $(window).height(),
-       wS = $(this).scrollTop();
-    console.log((hT-wH) , wS);
-   if (wS > (hT+hH-wH)){
-    $('.scroll-to').fadeIn(2500);
-   }
-});
-//         $(window).scroll(function() {
-//    var hT = $('.scroll-to2').offset().top,
-//        hHt = $('.scroll-to2').outerHeight(),
-//        wHt = $(window).height(),
-//        wSt = $(this).scrollTop();
-//     console.log((hTt-wHt) , wSt);
-//    if (wSt > (hTt+hHt-wHt)){
-//     $('.scroll-to2').fadeIn(2500);
-//    }
-// });
-
+            var hT = $('.scroll-to').offset().top,
+                hH = $('.scroll-to').outerHeight(),
+                wH = $(window).height(),
+                wS = $(this).scrollTop();
+            console.log((hT - wH), wS);
+            if (wS > (hT + hH - wH)) {
+                $('.scroll-to').fadeIn(2500);
+            }
+        });
     </script>
 
 </body>
