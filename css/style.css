@@ -237,8 +237,27 @@ video {
     /*display: none;*/
 }
 
-.img-portfolio:hover {
-    opacity: 0.8;
+.portfolio-item:hover img {
+    opacity: 0.3;
+    z-index: -1;
+}
+.portfolio-item:hover button {
+  display: block;
+}
+
+div.portfolio-item button {
+  position: absolute;
+  display: none;
+  z-index: 0;
+}
+
+div.portfolio-item button.demo {
+  top: 30%;
+  left: 25%;
+}
+div.portfolio-item button.repo {
+  top: 30%;
+  left: 55%;
 }
 
 #guess {
