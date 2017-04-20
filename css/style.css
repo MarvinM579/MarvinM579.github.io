@@ -255,6 +255,11 @@ div.portfolio-item button.demo {
   top: 30%;
   left: 25%;
 }
+div.portfolio-item button.kohdemo {
+  top: 30%;
+  left: 40%;
+}
+
 div.portfolio-item button.repo {
   top: 30%;
   left: 55%;
