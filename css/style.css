@@ -301,3 +301,10 @@ div.portfolio-item button.repo {
     bottom: 5px;
     right: 5px;
 }
+
+.hideyes {
+    display: none;
+}
+.hideno {
+    display: none;
+}
