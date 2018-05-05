@@ -1,8 +1,8 @@
 $(document).ready(function () {
-    $(".yes".click(function() {
+    $(".yes").click(function() {
         $(".hideyes").removeClass("hideyes");
-    }))
-    $(".no".click(function() {
+    })
+    $(".no").click(function() {
         $(".hideno").removeClass("hideno");
-    }))
+    })
 });
